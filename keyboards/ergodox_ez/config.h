@@ -29,17 +29,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define COL_EXPANDED { true, true, true, true, true, true, true, false, false, false, false, false, false, false }
 #define MATRIX_ONBOARD_ROW_PINS { 0, 0, 0, 0, 0, 0, 0, B0,  B1,  B2,  B3,  D2,  D3,  C6 }
 #define MATRIX_ONBOARD_COL_PINS { F0,  F1,  F4,  F5,  F6,  F7 }
-#define DIODE_DIRECTION COL2ROW
 #define EXPANDER_COL_REGISTER GPIOB
 #define EXPANDER_ROW_REGISTER GPIOA
 #define MATRIX_EXPANDER_COL_PINS { 5, 4, 3, 2, 1, 0 }
 #define MATRIX_EXPANDER_ROW_PINS { 0, 1, 2, 3, 4, 5, 6 }
 
-#define MOUSEKEY_INTERVAL           20
-#define MOUSEKEY_DELAY              0
-#define MOUSEKEY_TIME_TO_MAX        60
-#define MOUSEKEY_MAX_SPEED          7
-#define MOUSEKEY_WHEEL_DELAY        400
 #define MOUSEKEY_WHEEL_INTERVAL     MOUSEKEY_INTERVAL
 #define MOUSEKEY_WHEEL_MAX_SPEED    MOUSEKEY_MAX_SPEED
 #define MOUSEKEY_WHEEL_TIME_TO_MAX  MOUSEKEY_TIME_TO_MAX
